@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="55dp">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="1dp"
+     android:background="#C4C2C2"></LinearLayout>
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:orientation="horizontal">
+<LinearLayout
+    android:id="@+id/ll_home"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="54dp">
+    <ImageView
+        android:id="@+id/home_fg_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home_fg_st"/>
+    <TextView
+        android:id="@+id/home_fg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首页"
+        android:textColor="@drawable/tx_fg_st"
+        android:textSize="14sp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_touzi"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="54dp">
+        <ImageView
+            android:id="@+id/touzi_fg_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/touzi_fg_st"/>
+        <TextView
+            android:id="@+id/touzi_fg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="投资"
+            android:textColor="@drawable/tx_fg_st"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_geren"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="54dp">
+        <ImageView
+            android:id="@+id/geren_fg_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/geren_fg_st"/>
+        <TextView
+            android:id="@+id/geren_fg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人"
+            android:textColor="@drawable/tx_fg_st"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_more"
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="54dp">
+        <ImageView
+            android:id="@+id/more_fg_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/more_fg_st"/>
+        <TextView
+            android:id="@+id/more_fg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多"
+            android:textColor="@drawable/tx_fg_st"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
