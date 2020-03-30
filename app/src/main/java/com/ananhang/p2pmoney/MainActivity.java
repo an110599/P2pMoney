@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private MoreFragment mMoreFragment;
     private MeFragment mMeFragment;
     private FragmentTransaction mFragmentTransaction;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -146,11 +146,12 @@ public class MainActivity extends AppCompatActivity {
              else mFragmentTransaction.show(mMeFragment);
              break;
          case 3:
-             if (mMeFragment==null) {
+             if (mMoreFragment==null) {
                  mMoreFragment = new MoreFragment();
                  mFragmentTransaction.add(R.id.import_content, mMoreFragment);
              }
-             else mFragmentTransaction.show(mMoreFragment);
+             else
+                 mFragmentTransaction.show(mMoreFragment);
              break;
      }
         mFragmentTransaction.commit();

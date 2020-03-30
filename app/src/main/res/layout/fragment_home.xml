@@ -3,13 +3,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:orientation="vertical">
+    <include layout="@layout/top_layout"></include>
+    <com.ananhang.p2pmoney.utils.MyScrollView
+        android:id="@+id/myscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="home" />
+            <TextView
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home" /> <TextView
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="home" />
 
-    <TextView
-        android:textSize="30sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="home" />
+
+        </LinearLayout>
+
+    </com.ananhang.p2pmoney.utils.MyScrollView>
+
 
 </LinearLayout>
