@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center" android:layout_width="match_parent"
+    android:layout_height="52dp">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_marginLeft="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/zuojiantou"
+        />
+    <TextView
+        android:id="@+id/top_title"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textColor="@color/colorFragmentTextSt"
+        android:text="首页"
+        android:textSize="25sp"/>
+    <ImageView
+        android:id="@+id/setting_img"
+        android:layout_marginRight="10dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:minHeight="40dp"
+        android:minWidth="40dp"
+        android:src="@mipmap/tubiao112" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#AED9FC"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+
+</LinearLayout>
